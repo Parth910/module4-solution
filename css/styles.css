@@ -1,0 +1,198 @@
+body {
+  
+  
+  background-color: #3FF3EE;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#navbar { background-color: black  ;
+   
+ } 
+ 
+ #diff{
+  color: red;
+ }
+ 
+
+ 
+ 
+ #h1 {
+    width: 40px;
+    height: 40px;
+    color: red;
+    
+   }
+ span {
+  padding-top: 25px;
+  color: #131A88;
+
+}
+ .navbar-default .navbar-collapse {
+        border-color: white;
+        background-color: #e87373;
+     } 
+
+span { /* Restaurant name */
+  font-family: 'Noto Serif', serif;
+  color: #557c3e;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-nav{
+  text-decoration-color: white;
+}
+@media screen and (min-width: 1800px){
+.navbar-nav{
+  font-size: 31px;
+   font-family: 'IBM Plex Mono', monospace;
+  margin-left: 600px;
+  color: white;
+  
+ }
+ .feather {
+  width: 40px;
+  height: 40px;
+  stroke: black;
+  stroke-width: 1.5;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+  fill: white;
+  margin-left: 25%;
+
+}
+ 
+}
+@media screen and (min-width: 1550px) and (max-width: 1799px){
+ .navbar-nav{
+  font-size: 25px;
+   font-family: 'IBM Plex Mono', monospace;
+   margin-left: 600px;
+  }
+  .feather {
+  width: 50px;
+  height: 50px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+}
+@media screen and (min-width: 1350px) and (max-width: 1549px){
+ .navbar-nav{
+  font-size: 25px;
+   font-family: 'IBM Plex Mono', monospace;
+   margin-left: 430px;
+  }
+  .feather {
+  width: 50px;
+  height: 50px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+  
+}
+@media screen and (min-width: 1025px) and (max-width: 1349px){
+ .navbar-nav{
+  font-size: 25px;
+   font-family: 'IBM Plex Mono', monospace;
+   margin-left: 100px;
+  }
+  .feather {
+  width: 50px;
+  height: 50px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1024px){
+ 
+
+.feather {
+  width: 50px;
+  height: 50px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+}
+@media screen and (min-width: 760px) and (max-width: 991px){
+  span{
+    font-size: 50px;
+  }
+  .navbar-toggler-icon{
+  height: 50px;
+  width: 50px;
+
+ }
+ #h1 {
+    width: 40px;
+    height: 40px;
+    
+    
+   }
+   .feather {
+  width: 50px;
+  height: 50px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+  
+
+}
+@media screen and (min-width: 500px) and (max-width: 760px){
+  span{
+    font-size: 40px;
+  }
+   .navbar-toggler-icon{
+  height: 40px;
+  width: 40px;
+
+ }
+ #h1 {
+    width: 30px;
+    height: 30px;
+    color: red;
+    
+    
+   }
+   .feather {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  margin-right: 10px;
+}
+
+}
+@media screen and (max-width: 499px){
+  span{
+    font-size: 21px;
+  }
+  #h1 {
+    width: 40px;
+    height: 40px;
+    
+    
+   }
+}
+

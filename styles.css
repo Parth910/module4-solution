@@ -1,0 +1,125 @@
+body {
+  
+  
+  background-color: #3FF3EE;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar{
+    padding-right: 0;
+    background-color: #00C6FF;
+}
+
+ 
+    #cen1,#cen2,#cen3{
+      text-align: center;
+      
+    }
+    
+
+ 
+ 
+ 
+
+ }
+ #hr{
+   text-align: center;
+  margin-bottom: 15px;
+  color: blue;
+  size: 3px;
+  
+}
+p {
+  border: 1px solid black;
+  background-color: #00C6FF;
+  width: 90%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  padding: 0px;
+  border: 3px solid black;
+  color: black;
+  
+
+
+}
+#xl1,#xl2,#xl3{
+  width: 130px;
+  height: 40px;
+  margin-left: 43%;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  
+
+}
+
+div{
+  padding: 0px;
+}
+#diff{ /* Restaurant name */
+  font-family: 'Noto Serif', serif;
+  color: #557c3e;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  float: left;
+ 
+ 
+
+   
+ #diff {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  color:black;
+
+  
+
+
+}
+ .navbar-default .navbar-collapse {
+        border-color: white;
+        background-color: #e87373;
+     } 
+
+
+.navbar-nav{
+  text-decoration-color: white;
+}
+@media screen and (min-width: 1025px){
+
+  
+}
+ 
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  
+  .navbar-toggler-icon{
+  height: 50px;
+  width: 50px;
+
+ }
+
+}
+@media screen and (max-width: 768px){
+.navbar-toggler-icon{
+  height: 20px;
+  width: 20px;
+}
+ #cen1,#cen2,#cen3{
+   border: 1px solid yellow;
+ }
+ #diff{
+  font-size: 35px;
+ }
+ }
+
+
